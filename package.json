@@ -1,0 +1,29 @@
+{
+  "name": "parceltest",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "build": "parcel build src/index.html --public-url /parceltest/",
+    "dev": "npx parcel src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TarasKostr/parceltest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TarasKostr/parceltest/issues"
+  },
+  "homepage": "https://github.com/TarasKostr/parceltest#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
